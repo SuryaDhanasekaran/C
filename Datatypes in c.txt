@@ -1,0 +1,31 @@
+Data:
+    User input.
+    Datatypes:
+    1.Built-in-Integral(integer,character),Bool,Floating Point(float,double)
+    2.Derived(Arrays,Pointers)
+    3.User-defined(struct,enum,union)
+
+    Integer:
+        whole num +ve,-ve or zero
+        
+        short int
+        unsigned short int
+        unsigned int
+        int
+        long int
+        unsigned long int
+        long long int
+        unsigned long long int
+
+    Character:
+        Letter or Number or symbol in single quotes.
+
+            Signed
+            Unsigned character
+
+        Character is integer type because integer types can be stored.
+
+    Floating Point:
+        float
+        double
+        long double
