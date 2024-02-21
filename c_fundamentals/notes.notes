@@ -1,0 +1,562 @@
+Why learn C:
+
+Very powerful language
+Operating system
+
+Windows - OS kernel 
+Unix Linux
+
+Embedded programming
+
+BASIC - Beginner All purpose Symbolic Instruction Code
+
+C - Variables / Constants
+Arithmetic Operators
+Expressions Statements
+Control Statements
+Standard C library functions
+
+Uses:
+Desktop application C++,Java,C#
+Web-based application - js c# php jsp
+Device based application - java android iphone
+Automation photoshop - action scripts
+
+Facilities are less than modern languages
+---------------------------------------------------------------
+IDE - Integrated Development Environment
+
+Editing --> Compiling --> (Building)Linking --> Running
+
+hello.c --> hello.obj + loader --> hello.exe
+
+functions Statements
+--------------------------------------------------------------
+
+Components of computer:
+
+Input --> (CPU<-Memory->Secondary Storage)--> Output
+
+Input - Keyboard,Touch screen,Mouse,Webcam,Microphone
+
+Output - Monitor,Dot matrix printer,Speaker,Printer,Laser printer,Webcam
+
+CPU - Central Processing Unit - executes instructions Arithmetic and Logical operations
+
+Memory - Random Access Memory - stores data
+
+Secondary Storage - Hard Disk - stores data
+
+--------------------------------------------------------------
+
+Managing Memory:
+
+Memory:
+
+1 byte = 8 bits
+
+1 bit - 0 or 1
+
+25 -> 00011001
+
+1GB RAM - 1024 bytes x 1024kb x 1024 mb
+
+How values are stored in memory:
+
+Binary format
+
+signed representation 0,127,-128,-127,-1(-128 to 127) -->calculation fast
+unsigned representation(0 to 255)
+
+01111111 - 127
+10000000 - 128
+10000000 + 1 -> -128
+
+Memory:
+
+Integer representation:
+char - 1 byte -> 255
+int - 2 bytes - 2^16-1
+long - 4 bytes - 2^32-1
+
+Floating point representation:
+
+float -> 4 bytes . 6 precision
+double -> 8 bytes -> 15 digit(precision)
+
+Character Representation:
+
+'a' '0' '+' 
+
+char -> ASCII char (0 to 127)
+65 - A 
+97 - a 
+
+String Representation:
+
+'G' 'o' 'o' 'd' '\0'
+
+Within quotes
+Stored in character by character
+terminated by \0
+
+-----------------------------------------------------------
+
+Memory Constants:
+
+Integer:
+L division by 2
+Decimal:25
+11001
+
+Octal: 25
+L division by 8
+
+25 -> 031 -> number prefixed by 0
+
+Hexadecimal:
+
+L division by 16
+
+OX19 - Hexadecimal
+
+Floating point representation:
+
+0.
+2e-8 -> 2 x 10^-8
+
+300000 -> 3e5 or 3E + 5 or 3 x 10^5
+
+Character Representation:
+
+'A' --> ASCII Chart --> 65
+
+String Constants:
+
+"green" - 103|114|101|101|110|\0
+
+Special Characters:
+
+Non printable character
+
+\a - bell sound
+
+\b - backspace
+
+\t - tab [8]
+
+\v - vertical tab 
+
+\f - form feed
+
+\r - carriage return
+
+\n - new line - \n + \r = \n
+
+\" - double quote
+
+\' - single quote
+
+\\ - backslash
+
+\? - question mark
+
+\! - exclamation mark
+
+\0 - null(end of string)
+
+Symbolic Constants:
+
+#define SERVICE_TAX 12
+
+#define TRUE 1
+#define FALSE 0
+
+-----------------------------------------------------------
+Memory Operations:
+
+store value,read value
+
+memory declaration:
+
+<type> <variablename>;
+
+char a; -> 1 byte (-128 to 127)
+int b; -> 2 bytes (-32,768 to 32,767)
+long c; -> 4 bytes(-2,147,483,648 to 2,147,483,647)
+float d; -> 4 bytes(-3.4E38 to 3.4E38)(precision 6)
+double e; -> 8 bytes(-1.7E308 to 1.7E308)(precision 15)
+char s[] = "Surya" -> 10 bytes
+
+variable name:
+
+netSalary
+
+consist of:
+alaphabets
+digits
+underscore
+
+Operations:
+
+store value in memory
+
+int a,b;
+a = 10;//storegcc -o alu alu.c -lm
+b = a + 10;//read
+a = a + b;
+------------------------------------------------------------
+
+Arithmetic and Logical Unit:
+
+Simple Arithmetic Operators:
+
+Arithmetic => Mathematical Operators
+
++ - * / %
+
+x*(y+z)
+
+ax^2+bx+c = a x X x X + b x X + c
+
+Operator Precedence:
+
+Use brackets when needed
+
+a/bs = a/b*s (left to right)
+
+() - 1
+* / % = 2
++ - = 3
+
+
+a+b*c = (a+b)*c
+
+
+a^10 -> Standard C Library functions:
+
+<returntype> functionaName(Input parameters)
+
+base = values;
+pow = values;
+a^b = pow(a,b) => pow(base,powervalue)
+pow(y,1/3) x 0.333(truncated) = 1/0
+pow(y,1/3.0)
+sqrt(a):
+sqrt(x + y)
+abs(a):
+
+gcc -o alu alu.c -lm
+
+------------------------------------------------------------
+
+Relational & Logical Operators:
+
+a) Relational Operators:
+
+True or False => 1 or 0
+== 
+<
+>
+<=
+>=
+!=
+
+b) Logical Opertors:
+
+Used to do more than one relational operations
+
+a > b && a > c -> AND(all conditions true)
+a > b || a > c  ->OR(any one true)
+!a -> NOT
+
+c) Ternary Opertor:
+
+a > b ? a : b;
+(a>b) ? 5 : 10;
+
+------------------------------------------------------------   
+
+Console Output:
+
+a)Display Literal String.
+
+Program:
+
+Input -> Processing -> Output
+
+<stdio.h>:
+Standard input output
+printf("Hello World\n");
+
+b) Display a Character:
+
+Memory result:
+
+printf("format string",[replacable parameters]);
+
+print("You have the alphabet %c",result);
+%c - format string
+65 -> char -> A
+
+c) Display Integer Numbers.
+
+Integer -> Decimal output,Hexadecimal output
+
+%c - character
+%d - integer
+%x - hexadecimal
+
+a = 10;
+b = 25;
+c = 2543
+printf(" Decimal = %d HexaDecimal = %x Octal = %o\n",a,b,c);
+
+%#x -> Readability (octal,hex)
+A = 10 B = 0x19
+
+d) Display Floating Point Numbers:
+
+%f -> float
+%lf -> double
+
+e) Display Strings:
+
+%s
+
+f) Fixed Width Display:
+
+%3d -> 300 
+30 -> 30
+
+
+    printf("\nd=%f",d);
+    printf("\nd=%.2f",d);
+    printf("\nd=%10.2f",d);
+
+g) Left Justify
+
+- -> for left justification
+
+h) New Line(\n)
+/**/ - comments in C
+d
+i) Horizontal Tab(\t)
+
+\t -> 8 spaces
+
+j) Sample to display Employee Table.
+
+--------------------------------------------------------------------
+String Array:
+
+char s[] = "Surya";
+
+Array:
+
+Elements stored in continuous memory locations
+consist of same type
+
+Indexed variable -> s - points first locations
+
+s[0] --> Surya
+
+Access using Indexed
+
+There is no String datatype in C.It is used by Array here.
+
+String declaration:
+
+char s[10];
+
+s[0] = 'S';
+s[1] = 'u';
+s[2] = 'r';
+s[3] = 'y';
+s[4] = 'a';
+s[5] = '\0';
+
+String initialization:
+
+char a[] = "Surya";
+Automatic allocation of memory
+
+char s[] = {'a','e',15,'i','o',25,'\0'};
+
+String initialization at the time of Execution:
+
+char res[100]; ->reserved memory
+//during runtime
+<string.h> -->strcpy(res,"Surya");
+
+Display String:
+
+char s[] = "Hello";
+printf("%s",s);
+s->Starting address
+
+Starting address of String:
+
+char res[] = "PASS";
+printf("%c",res[2]);
+printf("%s",res+2);
+
+Address of Middle of String:
+
+s+5,s+10,s[3]
+------------------------------------------------------------------
+Keyboard Input Char Input:
+
+Input:
+
+Keyboard Buffer:
+
+Input ---> Special memory location(Keyboard Buffer)\n \0
+
+Keyboard buffer - starting position (pointer)
+
+Input Character:
+
+Character -> Single character
+String -> Sequence of Characters
+
+Keyboard Input:
+character:
+getchar();
+1.compiler sees keyboard buffer empty or NOT
+empty --> getchar() --->Userinput
+
+-------------------------------------------------
+
+Input String:
+
+gets(array_name);
+
+char res[100];
+gets(res);
+
+-----------------------------------------------------
+Integer/Floating point input:
+
+int a ;
+float b;
+
+scanf("%d",&a);
+scanf("%f",&b);
+
+scanf("formatted String",address list);
+--------------------------------------------------------------
+
+Purpose of Scanf:
+
+area.c -> area.o --> (build)area.exe
+--------------------------------------------------------------
+
+Assignment & Increment Operators:
+
+
+variable = Expressions;
+
+a = 5;
+b = a * 5;
+
+Assignment Operator:
+
+Accumulation Process -> c = c + 1;
+
+c+=expression
+c+=(a+2)
++=
+-=
+*=
+/=
+%=
+
+Abbreviated Assignment Operator:
+
+c++;
+++c;
+c--;
+--c;
+
+
+c = 5
+d = ++c; -> 6  -->Prefix
+
+c = 4; -> 5 -->Postfix
+d = c++; -> 4
+Increment and Decrement Opertors:
+----------------------------------------------------------------
+
+Control Statements If:
+
+used for solving problems
+
+check condition to execute the particular block of code
+
+if(condition):
+if else:
+if else if:
+
+
+simple statement
+compound statement
+-----------------------------------------------------------------
+Switch case:
+
+
+switch(expression):
+case constant:
+statement
+break;
+default:
+statement
+break;
+-----------------------------------------------------------------
+Loop Statements:
+Group of statements executed again and again
+while(condition)
+statement:
+for
+do{
+    Statements;
+}while(condition)
+-----------------------------------------------------------------
+Continue & Break Statements:
+
+continue -> skips rest of the loop and go to start of the loop
+break -> breaks out of the loop
+
+----------------------------------------------------------------
+Return Statement:
+return
+----------------------------------------------------------------
+For loop:
+
+Looping finite number of times - for statement
+
+for(initialization;condition;increment/decrement)
+{
+    statements;
+}
+----------------------------------------------------------------
+While Loop:
+Looping until condition is true - while statement
+while(condition)
+{
+    statements;
+}
+----------------------------------------------------------------
+Do-While Loop:
+Looping until condition is true - do-while statement
+do
+{
+    statements;
+} while(condition)
+----------------------------------------------------------------
+Break Statement:
+break
+----------------------------------------------------------------
+Continue Statement:
+continue
+----------------------------------------------------------------

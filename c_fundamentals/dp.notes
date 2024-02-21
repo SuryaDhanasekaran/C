@@ -1,0 +1,256 @@
+Face to Face interview
+
+Software Development Group
+
+Face - Face technical interview
+
+Data Patterns:
+
+Data Patterns India Ltd, a Core company in Design, Development & Manufacture of Radar, EW systems, Nano Satellites, etc., for Defence and Aerospace applications
+
+Data Patterns (India) Ltd. (DP), is a Core company in Design, Development & Manufacture of Radar (Low frequency to High Frequency), EW systems, Nano Satellites, Avionics, Rugged Avionic Displays and ATE Test Systems for Defence and Aerospace applications. We are an AS9100 Rev 'D' certified company with more than 3 decades of legacy in indigenous design & manufacturing solutions for Radar Signal Processing, Data Acquisition and Control, Signal Conditioning, Simulation, Communication, Switching etc. and our clients include the likes of ISRO, DRDO, BEL, ECIL, BDL and HAL.
+
+Graduate Engineer Trainee(GET) - Software Development Group (SDG)
+
+Good Knowlege & coding in C
+Assembly
+Data Structures !important
+OS concepts
+Microprocessor
+Micro-controller
+good system programming skills
+Good written and spoken communication skills.
+
+
+Round 2:
+
+Technical HR: !important
+MPMC:
+Truth Table for Gates
+Integrator
+Differentiator
+Amplifier
+AND Gate 
+Communication
+Networks
+Micro controller
+I2C,SPI,RS232
+
+Project works:
+Questions based on projects
+How we did the Project
+Components used in the Project
+Area of interest
+Resume:
+Introduction
+Skills in Resume
+All topics related to C programming
+Internship
+Certifications
+Questions based on fav subject
+Networks:
+TCP/IP
+MAC Address,Logical Address,Port Address
+ipv4,ipv6
+Layers of TCP/IP
+ARP,RARP
+UDP,TCP difference
+DNS 
+C:
+C-basics
+Data types:
+ranges of datatypes
+Dynamic memory allocation:
+prototypes of malloc,calloc,realloc
+void pointer & wild pointer
+Core C Fundamentals
+Pointers:
+What is pointer?
+Structures:
+What is a structure?
+Array:
+What is the array?
+Union
+Padding
+Structure Paddin
+File operations in C
+Macros 
+Operators:
+How many operators are in c language?
+Bitwise Operators
+Storage class:
+How storage class works?Explain static and extern storage classes.
+Recursion:
+Linux:
+Character device drivers
+User-space applications
+socket programming
+building and installin opensource applications
+building and testing the kernel
+Linux Basics !important
+
+Debugging:
+Experience in use of debugging tools
+
+VxWorks (Optional):
+
+GUI development using Python/PyQT:
+
+
+Scheduling algorithms
+Signal Handling
+System calls
+File management
+Memory management
+c
+Preprocessor in C
+Char array and string
+C++:
+// basics of C++
+
+DSA:
+Linkedin Lists
+Code for Insertion and Deletion of a node in Linked List
+Code for reversing the linked list
+
+
+
+C Programming:
+Questions to solve
+Basic C questions
+RTOS
+Store elements using pointers in C
+Write a simple program using c and explain the compilation
+Any C program you Know
+Write Program using Structures and Bit-wise Operators
+Write a code for swapping using pointer
+Swapping without using third variable
+Write any code using Recursion(Fibonacci series)
+
+
+
+
+
+Expexct Some apti questions !important
+
+Round 2 ii) - Based on Resume:
+Strength and weakness
+basic questions in c
+Why Should I hire you
+
+Round 3:
+
+HR :
+Formality
+About Company
+
+
+Data Patterns Interview Questions:
+
+Online Exam
+
+1)Write a program that converts an input integer number from decimal to binary form
+     using a recursive function and prints the binary value?
+
+
+2)Write a program that reads the content of a file and prints the number of occurrences 
+    of a given word in that file?
+
+
+3)Write a function for the preorder and post order of a Binary Search Tree and print
+     the preorder and postorder of Binary search tree?
+
+
+4)Write a function for a call by reference and it invokes to function pointer?
+
+
+5)Write a program to count no of one's and zeros in number?
+
+
+6)Write a program for a single linked list using dynamic memory allocation and 
+     take the data for a particular position?
+
+C
+
+1)What is PreProcessor?
+
+2)What is a function?
+
+3)What is a Token?
+
+4)Explain Function Call,Function Declaration,Function Definition?
+
+5)What is a header file?
+
+6)What are the parameters in the header file?
+
+7)Is Header File needed for  Program?
+
+8)How to compile a C Program?
+
+9)What is executable File?
+
+10)Where Executable file is stored?
+
+11)What are the compilation stages of a c program?
+
+12)What are storage classes?
+
+13)Explain the memory layout of a c program?
+
+
+C++ Concepts:
+
+1)What are the features of C++?
+
+2)What is Polymorphism and its types?
+
+
+C:
+
+Videos:
+
+https://www.youtube.com/watch?v=yBCRkoLESQU&list=PLYM2_EX_xVvXUdAD0pE6jyDc8lV5CCEUV
+
+[√] https://www.youtube.com/watch?v=xKGg8UfR0mM&list=PLYM2_EX_xVvU7N5Lcp1SjKnGN5e6riUoj
+
+[√] https://www.youtube.com/watch?v=3BAaNsNO1KM&list=PLN00Qh4gtjNsqxXeZMssQLLt87ec4IrZs
+
+[√] https://www.youtube.com/playlist?list=PLBQXOA5OR76rq-
+
+[√] https://www.youtube.com/playlist?list=PLmjuBlzAWCzxTdRxTtMSj1NFe_GvFlvFw
+
+https://www.youtube.com/watch?v=e5zYOB5eXm4&list=PL4unWLKFsZfcL7ZCCEQqg8PeYovzol8Xc
+
+[√] https://www.youtube.com/watch?v=whsAW_2xP_U&list=PLBngtsPyn30E8yIU4Bp-zVuO2t_zmQU26
+
+[√] https://www.youtube.com/watch?v=ZR9gsfuHNec&list=PLpYn3LR7eQI1WSmqUCUT_SwTFZm7yyTf8
+
+Full C:
+
+https://www.youtube.com/@SANTRATECHSPOT/playlists
+
+DSA in C:
+
+https://www.youtube.com/watch?v=QQBVNwA9rDI&list=PLYM2_EX_xVvVMXkQt4qqosJTplBq5v5oX
+
+https://www.youtube.com/watch?v=-aqlTvV3Vtc&list=PL_UqaR55i1797oG0BL0wtxdPpa_NYNFLz&index=1
+
+https://www.youtube.com/watch?v=XkTBfQwxR5c&list=PLN00Qh4gtjNtGpnjRi2Pydrcg5Qpzkcs1&index=1
+
+https://www.youtube.com/watch?v=yMw9SV19NHA&list=PLmjuBlzAWCzyalh21j9xtReBBWE4YumUV
+
+C Interview Programs:
+
+https://www.youtube.com/watch?v=Mxg4Ds5SzFU&list=PLYM2_EX_xVvV4Kypzs6haPDJrXBaYFVEd
+
+https://www.youtube.com/watch?v=Ak0qZFxbHqI&list=PLmjuBlzAWCzwI6Q_J5_KyFo5e-anBKiYV
+
+C interview questions :
+
+https://www.youtube.com/watch?v=QytyTbr0Hik&list=PLmjuBlzAWCzxTHCpLjn0vgQX_G5b02fLj
+
+
+Batch Processing:
+
+https://www.youtube.com/watch?v=Ak0qZFxbHqI&list=PLmjuBlzAWCzyWK_1DgqmUV5QYCVaTyB71
